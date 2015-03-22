@@ -28,3 +28,4 @@ sc.exe /t:exe /r:MyCodeLibrary.dll simpleTypeClient.cs
 
 ---Generar Firma Seguridad CAS---
 ---sn -k certificado snk -
+----------------------------------------------
