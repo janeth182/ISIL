@@ -1,0 +1,30 @@
+Capistrano 
+integracion continua jenkis 
+Pruebas de stress jmeter
+selenium webdriver se integra 
+
+Tres tipos de target 
+
+Compilar
+
+un .exe
+C:\Repositorio\ISIL\.NET Sesion1>C:\Windows\Microsoft.NET\Framework\v2.0.50727\c
+sc.exe /out:HelloCS.exe Hello.cs
+
+una .dll
+C:\Repositorio\ISIL\.NET Sesion1>C:\Windows\Microsoft.NET\Framework\v2.0.50727\c
+sc.exe /out:HelloCS.exe Hello.cs t:library /out:MyCodeLibrary.dll simpleType.cs
+
+dos .dll
+C:\Repositorio\ISIL\.NET Sesion1>C:\Windows\Microsoft.NET\Framework\v2.0.50727\c
+sc.exe /out:HelloCS.exe Hello.cs t:library /out:MyCodeLibrary.dll simpleType.cs asmInfo.cs
+
+C:\Repositorio\ISIL\.NET Sesion1>C:\Windows\Microsoft.NET\Framework\v2.0.50727\c
+sc.exe /out:HelloCS.exe Hello.cs t:library /out:MyCodeLibrary.dll simpleType.cs asmInfo.cs
+
+--Usar una Referencia 
+C:\Repositorio\ISIL\.NET Sesion1>C:\Windows\Microsoft.NET\Framework\v2.0.50727\c
+sc.exe /t:exe /r:MyCodeLibrary.dll simpleTypeClient.cs
+
+---Generar Firma Seguridad CAS---
+---sn -k certificado snk -

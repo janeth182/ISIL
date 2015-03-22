@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyCodeLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MyCodeLibrary.SimpleType">
+            <summary>
+            Simple utility type. 
+            </summary>
+        </member>
+        <member name="M:MyCodeLibrary.SimpleType.DisplayEnvironment">
+            <summary>
+            Print out select environment information
+            </summary>
+        </member>
+    </members>
+</doc>

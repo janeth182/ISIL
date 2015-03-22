@@ -1,0 +1,13 @@
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\Ejemplo1.exe.config
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\Ejemplo1.exe.CodeAnalysisLog.xml
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\Ejemplo1.exe.lastcodeanalysissucceeded
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\obj\Debug\Ejemplo1.Properties.Resources.resources
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\obj\Debug\Ejemplo1.csproj.GenerateResource.Cache
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\obj\Debug\Ejemplo1.pdb
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\obj\Debug\Ejemplo1.Form1.resources
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\obj\Debug\Ejemplo1.csprojResolveAssemblyReference.cache
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\MyLibrary.dll
+C:\Repositorio\ISIL\.NET Sesion1\Proyecto01\Ejemplo1Solution\Ejemplo1\bin\Debug\MyLibrary.pdb
