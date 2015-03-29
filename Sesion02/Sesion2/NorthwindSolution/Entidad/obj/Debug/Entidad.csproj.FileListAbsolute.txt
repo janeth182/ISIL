@@ -1,0 +1,5 @@
+C:\Users\Alumno-CT\Desktop\Sesion02\Sesion2\NorthwindSolution\Entidad\bin\Debug\Entidad.dll
+C:\Users\Alumno-CT\Desktop\Sesion02\Sesion2\NorthwindSolution\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Alumno-CT\Desktop\Sesion02\Sesion2\NorthwindSolution\Entidad\obj\Debug\Entidad.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\Sesion02\Sesion2\NorthwindSolution\Entidad\obj\Debug\Entidad.dll
+C:\Users\Alumno-CT\Desktop\Sesion02\Sesion2\NorthwindSolution\Entidad\obj\Debug\Entidad.pdb

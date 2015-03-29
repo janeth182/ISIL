@@ -1,0 +1,6 @@
+%SystemDrive%\inetpub\wwwroot
+
+
+Indent Guides
+
+Visual Studio Gallery
