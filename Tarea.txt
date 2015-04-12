@@ -1,0 +1,25 @@
+Jenkins (Integracion Continua)-->asegura que todo este compilado antes de subir 
+------------------------------------------
+Git ignorar carpetas de grafico si se trabaja con wordpress
+--------------------------------------------
+git init
+git remote add northwind "http://git/janeth182/northwind.get"(direccion de carpeta remota)
+
+git checkout -b master(creando rama Master)
+git pull northwind master
+git push northwind master
+
+---------------------------------------------------
+forkear en proyecto 
+
+
+implentacion de 
+certificado digital--seguridad indirecta 
+--------------------------------------------------------------
+Aportaciones optimizando
+-- frmDocumento Agregar Cantidad
+-- Campo Cantidad validar que no sea nulo y entero 
+-- Eliminar fila 
+-- Mostrar Datos en pedf
+----------------------------------
+cadena de conexion va el pooling 
