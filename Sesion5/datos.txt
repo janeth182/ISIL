@@ -1,0 +1,19 @@
+SLA-
+(IIS,WHI,SERFT,APPFABRIC,WIN SERVICE)
+wrox 
+apress
+
+
+
+Iservice ¿que? --Implementacion
+Service ¿como? --Contrato
+
+wcf es api de service.model
+HTTPGETENABLED PUBLICO PARA PODER VER LOS METODOS
+
+------------------------------------------------
+probar tcp
+
+netstat -an 
+new relic
+https://dev.2b.pagoefectivo.pe/webservicetest/wscrypto.aspx
