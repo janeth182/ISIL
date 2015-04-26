@@ -1,0 +1,8 @@
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\bin\Debug\ServiceHostConsole.exe.config
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\bin\Debug\ServiceHostConsole.exe
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\bin\Debug\ServiceHostConsole.pdb
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\bin\Debug\ProductsService.dll
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\bin\Debug\ProductsService.pdb
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\obj\Debug\ServiceHostConsole.csprojResolveAssemblyReference.cache
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\obj\Debug\ServiceHostConsole.exe
+C:\NET\Sesion5\EjemploWCF\ServiceHostConsole\obj\Debug\ServiceHostConsole.pdb

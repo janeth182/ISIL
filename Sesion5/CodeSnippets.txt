@@ -1,0 +1,245 @@
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.12 -------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+
+[DataContract]
+public class Product
+{
+    [DataMember]
+    public int ProductID { get; set; }
+
+    [DataMember]
+    public string ProductName{get;set;}
+
+    [DataMember]
+    public double UnitPrice { get; set; }
+
+    [DataMember]
+    public int StockLevel { get; set; }
+
+    [DataMember]
+    public string Category { get; set; }
+}
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.13 -------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+    [OperationContract]
+    List<Product> GetProductsList();
+
+    [OperationContract]
+    List<Product> GetProductsByCategory(string CategoryName);
+
+    [OperationContract]
+    Product GetProduct(int ProductID);
+
+    [OperationContract]
+    int GetStockLevel(int ProductID);
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.15 -------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+
+public List<Product> GetProductsList()
+{
+  var productList = from p in XElement.Load("Products.xml").Elements()
+                    select new Product
+                    {
+                     ProductID = int.Parse(p.Attribute("ProductID").Value),
+                     ProductName = p.Element("ProductName").Value,
+                     UnitPrice = double.Parse(p.Element("UnitPrice").Value),
+                     StockLevel = int.Parse(p.Element("StockLevel").Value),
+                     Category = p.Element("Category").Value
+                    };
+
+  return productList.ToList();
+}
+
+public List<Product> GetProductsByCategory(string CategoryName)
+{
+  var productList = from p in XElement.Load("Products.xml").Elements()
+                    where p.Element("Category").Value == CategoryName
+                    select new Product
+                    {
+                     ProductID = int.Parse(p.Attribute("ProductID").Value),
+                     ProductName = p.Element("ProductName").Value,
+                     UnitPrice = double.Parse(p.Element("UnitPrice").Value),
+                     StockLevel = int.Parse(p.Element("StockLevel").Value),
+                     Category = p.Element("Category").Value
+                    };
+
+  return productList.ToList();
+}
+
+public Product GetProduct(int ProductID)
+{
+  Product prod =(
+                from p in XElement.Load("Products.xml").Elements()
+                where p.Attribute("ProductID").Value == ProductID.ToString()
+                select new Product
+                {
+                  ProductID = int.Parse(p.Attribute("ProductID").Value),
+                  ProductName = p.Element("ProductName").Value,
+                  UnitPrice = double.Parse(p.Element("UnitPrice").Value),
+                  StockLevel = int.Parse(p.Element("StockLevel").Value),
+                  Category = p.Element("Category").Value
+                }
+                ).FirstOrDefault();
+  return prod;
+}
+
+public int GetStockLevel(int ProductID)
+{
+  int stockLevel =
+                (
+                from p in XElement.Load("Products.xml").Elements()
+                where p.Attribute("ProductID").Value == ProductID.ToString()
+                select int.Parse(p.Element("StockLevel").Value)
+                ).FirstOrDefault();
+
+  return stockLevel;
+}
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.41 -------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+svcutil /namespace:*,Client.ProductsService tempuri.org.wsdl *.xsd /out:proxyProductsService.cs
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.55 -------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+
+    Console.WriteLine("When the hosting application is ready press ENTER");
+    Console.ReadLine();
+
+    int prodID = 1;
+
+    Client.ProductsService.ProductsServiceClient 
+               proxy = new Client.ProductsService.ProductsServiceClient();
+
+    int stockLevel = proxy.GetStockLevel(prodID);
+                           
+    Console.WriteLine("Stock Level for productID {0} is {1}",
+                      prodID.ToString(), 
+                      stockLevel.ToString());
+
+    Console.ReadLine();
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.116 ------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+using System.Security.Cryptography.X509Certificates;
+using System.Net;
+
+
+...
+
+      PermissiveCertificatePolicy.Enact("CN=HTTPS-Server");
+
+
+...
+
+class PermissiveCertificatePolicy
+  {
+    string subjectName;
+    static PermissiveCertificatePolicy currentPolicy;
+
+    PermissiveCertificatePolicy(string subjectName)
+    {
+      this.subjectName = subjectName;
+
+      ServicePointManager.ServerCertificateValidationCallback += new
+          System.Net.Security.RemoteCertificateValidationCallback(
+                                                        RemoteCertValidate);
+    }
+
+    public static void Enact(string subjectName)
+    {
+      currentPolicy = new PermissiveCertificatePolicy(subjectName);
+    }
+
+    bool RemoteCertValidate(object sender, 
+                            X509Certificate cert, 
+                            X509Chain chain,
+                            System.Net.Security.SslPolicyErrors error)
+    {
+      if (cert.Subject == subjectName)
+      {
+         return true;
+      }
+
+      return false;
+    }
+  }
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+--- step 1.117 ------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+
+static void Main(string[] args)
+        {
+            Console.WriteLine("When the hosting application is ready press ENTER");
+            Console.ReadLine();
+
+            //dirty code to read user input
+            Console.WriteLine("Username: ");
+            string username = Console.ReadLine();
+            Console.WriteLine("Password: ");
+
+            ConsoleKeyInfo cki = new ConsoleKeyInfo();
+            StringBuilder pw = new StringBuilder();
+            do
+            {
+                cki = Console.ReadKey(true);
+                if (cki.Key != ConsoleKey.Enter)
+                    pw.Append(cki.KeyChar.ToString());
+            } while ( cki.Key != ConsoleKey.Enter);
+
+            
+            int prodID = 1;
+
+            PermissiveCertificatePolicy.Enact("CN=HTTPS-Server");
+
+            Client.ProductsService.ProductsServiceClient
+                       proxy = new Client.ProductsService.ProductsServiceClient("HTTP_ClientEndPoint");
+
+            proxy.ClientCredentials.UserName.UserName = username;
+            proxy.ClientCredentials.UserName.Password = pw.ToString();
+
+            int stockLevel = proxy.GetStockLevel(prodID);
+
+            Console.WriteLine("Stock Level for productID {0} is {1}",
+                              prodID.ToString(),
+                              stockLevel.ToString());
+
+            Console.ReadLine();
+
+        }

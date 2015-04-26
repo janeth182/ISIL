@@ -1,0 +1,9 @@
+C:\NET\Sesion5\EjemploWCF\Client\bin\Debug\Client.exe.config
+C:\NET\Sesion5\EjemploWCF\Client\bin\Debug\Client.exe
+C:\NET\Sesion5\EjemploWCF\Client\bin\Debug\Client.pdb
+C:\NET\Sesion5\EjemploWCF\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\NET\Sesion5\EjemploWCF\Client\obj\Debug\Client.Form1.resources
+C:\NET\Sesion5\EjemploWCF\Client\obj\Debug\Client.Properties.Resources.resources
+C:\NET\Sesion5\EjemploWCF\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\NET\Sesion5\EjemploWCF\Client\obj\Debug\Client.exe
+C:\NET\Sesion5\EjemploWCF\Client\obj\Debug\Client.pdb

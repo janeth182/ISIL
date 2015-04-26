@@ -1,0 +1,5 @@
+C:\NET\Sesion5\EjemploWCF\ProductsService\bin\Debug\ProductsService.dll
+C:\NET\Sesion5\EjemploWCF\ProductsService\bin\Debug\ProductsService.pdb
+C:\NET\Sesion5\EjemploWCF\ProductsService\obj\Debug\ProductsService.csprojResolveAssemblyReference.cache
+C:\NET\Sesion5\EjemploWCF\ProductsService\obj\Debug\ProductsService.dll
+C:\NET\Sesion5\EjemploWCF\ProductsService\obj\Debug\ProductsService.pdb
