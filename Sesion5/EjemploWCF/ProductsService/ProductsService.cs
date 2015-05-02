@@ -70,5 +70,16 @@ namespace ProductsService
 
             return stockLevel;
         }
+        public List<Product> GetProductsListID()
+        {
+            var productList = from p in XElement.Load("Products.xml").Elements()
+                              select new Product
+                              {
+                                  ProductID = int.Parse(p.Attribute("ProductID").Value),
+                                  ProductName = p.Element("ProductName").Value,
+                              };
+
+            return productList.ToList();
+        }
     }
 }

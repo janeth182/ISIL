@@ -17,6 +17,10 @@ namespace ProductsService
         [OperationContract]
         Product GetProduct(int ProductID);
         [OperationContract]
-        int GetStockLevel(int ProductID);        
+        int GetStockLevel(int ProductID);
+        [OperationContract]
+        List<Product> GetProductsListID();
+        
     }
+
 }
