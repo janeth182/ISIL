@@ -1,0 +1,8 @@
+C:\NET\Sesion6\MSMQEjemplos\Ejemplo1\bin\Debug\Ejemplo1.exe.config
+C:\NET\Sesion6\MSMQEjemplos\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\NET\Sesion6\MSMQEjemplos\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\NET\Sesion6\MSMQEjemplos\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\NET\Sesion6\MSMQEjemplos\Ejemplo1\obj\Debug\Ejemplo1.pdb
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\Ejemplo1\bin\Debug\Ejemplo1.exe.config
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\Ejemplo1\obj\Debug\Ejemplo1.pdb

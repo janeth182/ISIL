@@ -1,0 +1,14 @@
+http://www.ncrunch.net/
+http://integracioncontinua.blogspot.com/2014/10/integracion-continua-con-jenkins-net.html
+http://blog.fractaliasystems.com/servidores-de-integracion-continua-bamboo-jenkis-22/
+
+Opcion Net:
+-Rabbit MQ
+-SQS(AWS)
+
+---Agregar Caracteristicas 
+-->Servicio de transferencia inteligencia en segundo plano 
+
+-------------------------------------------------------------------------------------------
+
+NorthWind.win

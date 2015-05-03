@@ -1,0 +1,12 @@
+C:\NET\Sesion6\MSMQEjemplos\WCF-Server\bin\Debug\WCF-Server.exe.config
+C:\NET\Sesion6\MSMQEjemplos\WCF-Server\bin\Debug\WCF-Server.exe
+C:\NET\Sesion6\MSMQEjemplos\WCF-Server\bin\Debug\WCF-Server.pdb
+C:\NET\Sesion6\MSMQEjemplos\WCF-Server\obj\Debug\WCF-Server.exe
+C:\NET\Sesion6\MSMQEjemplos\WCF-Server\obj\Debug\WCF-Server.pdb
+C:\NET\Sesion6\MSMQEjemplos\WCF-Server\obj\Debug\WCF-Server.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\WCF-Server\bin\Debug\WCF-Server.exe.config
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\WCF-Server\bin\Debug\WCF-Server.exe
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\WCF-Server\bin\Debug\WCF-Server.pdb
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\WCF-Server\obj\Debug\WCF-Server.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\WCF-Server\obj\Debug\WCF-Server.exe
+C:\Users\Alumno-SO\Desktop\MSMQEjemplos\MSMQEjemplos\WCF-Server\obj\Debug\WCF-Server.pdb
