@@ -1,0 +1,11 @@
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\FacturaService.dll
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\FacturaService.pdb
+C:\NET\NorthWindRepo-master\FacturaService\obj\Debug\FacturaService.csprojResolveAssemblyReference.cache
+C:\NET\NorthWindRepo-master\FacturaService\obj\Debug\FacturaService.dll
+C:\NET\NorthWindRepo-master\FacturaService\obj\Debug\FacturaService.pdb
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\NorthWind.Entity.dll
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\Northwind.Logic.dll
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\NorthWind.Entity.pdb
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\Northwind.Logic.pdb
+C:\NET\NorthWindRepo-master\FacturaService\bin\Debug\NorthWind.DAO.pdb

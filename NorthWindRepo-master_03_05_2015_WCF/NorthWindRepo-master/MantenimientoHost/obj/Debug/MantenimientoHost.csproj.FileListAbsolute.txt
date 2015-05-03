@@ -1,0 +1,14 @@
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\MantenimientoHost.exe.config
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\MantenimientoHost.exe
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\MantenimientoHost.pdb
+C:\NET\NorthWindRepo-master\MantenimientoHost\obj\Debug\MantenimientoHost.csprojResolveAssemblyReference.cache
+C:\NET\NorthWindRepo-master\MantenimientoHost\obj\Debug\MantenimientoHost.exe
+C:\NET\NorthWindRepo-master\MantenimientoHost\obj\Debug\MantenimientoHost.pdb
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\MantenimientoService.dll
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\NorthWind.Entity.dll
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\Northwind.Logic.dll
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\MantenimientoService.pdb
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\NorthWind.Entity.pdb
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\Northwind.Logic.pdb
+C:\NET\NorthWindRepo-master\MantenimientoHost\bin\Debug\NorthWind.DAO.pdb

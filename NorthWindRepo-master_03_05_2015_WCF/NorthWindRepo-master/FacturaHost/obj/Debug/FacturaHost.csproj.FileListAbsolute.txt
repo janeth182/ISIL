@@ -1,0 +1,14 @@
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.exe.config
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.exe
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaService.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.Entity.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\Northwind.Logic.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaService.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.Entity.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\Northwind.Logic.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.DAO.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.csprojResolveAssemblyReference.cache
+C:\NET\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.exe
+C:\NET\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.pdb
