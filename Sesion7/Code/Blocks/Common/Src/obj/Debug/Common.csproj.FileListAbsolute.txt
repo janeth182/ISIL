@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Configuration.DesignResources.resources
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Properties.Resources.resources
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Properties.Resources.resources
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb

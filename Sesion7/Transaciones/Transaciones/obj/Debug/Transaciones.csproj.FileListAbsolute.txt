@@ -1,0 +1,12 @@
+C:\NET\Sesion7\Transaciones\Transaciones\bin\Debug\Transaciones.exe.config
+C:\NET\Sesion7\Transaciones\Transaciones\bin\Debug\Transaciones.exe
+C:\NET\Sesion7\Transaciones\Transaciones\bin\Debug\Transaciones.pdb
+C:\NET\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.csprojResolveAssemblyReference.cache
+C:\NET\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.Form1.resources
+C:\NET\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.Properties.Resources.resources
+C:\NET\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.csproj.GenerateResource.Cache
+C:\NET\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.exe
+C:\NET\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.pdb
+\\172.17.32.25\net\Sesion7\Transaciones\Transaciones\bin\Debug\Transaciones.exe.config
+\\172.17.32.25\net\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.exe
+\\172.17.32.25\net\Sesion7\Transaciones\Transaciones\obj\Debug\Transaciones.pdb

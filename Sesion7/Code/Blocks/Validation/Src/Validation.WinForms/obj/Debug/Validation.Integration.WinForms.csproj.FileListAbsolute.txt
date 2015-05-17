@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.xml
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Validation\Src\Validation.WinForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.Properties.Resources.resources
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Validation.Integration.WinForms.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+C:\Program Files (x86)\Microsoft Enterprise Library 5.0\src\Code\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb
