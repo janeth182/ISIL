@@ -1,0 +1,11 @@
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\MantenimientoService.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\MantenimientoService.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\NorthWind.Entity.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\Northwind.Logic.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\NorthWind.DAO.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\NorthWind.Entity.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\Northwind.Logic.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\bin\Release\NorthWind.DAO.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\obj\Release\MantenimientoService.csprojResolveAssemblyReference.cache
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\obj\Release\MantenimientoService.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\MantenimientoService\obj\Release\MantenimientoService.pdb

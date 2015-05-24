@@ -1,0 +1,1 @@
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache

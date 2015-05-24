@@ -1,0 +1,4 @@
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.Entity\bin\Release\NorthWind.Entity.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.Entity\bin\Release\NorthWind.Entity.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.Entity\obj\Release\NorthWind.Entity.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.Entity\obj\Release\NorthWind.Entity.pdb

@@ -1,0 +1,28 @@
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.exe.config
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.exe
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaService.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.Entity.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\Northwind.Logic.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaService.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.Entity.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\Northwind.Logic.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.DAO.pdb
+C:\NET\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.csprojResolveAssemblyReference.cache
+C:\NET\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.exe
+C:\NET\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.exe.config
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.exe
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaHost.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaService.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.Entity.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\Northwind.Logic.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\FacturaService.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.Entity.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\Northwind.Logic.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\bin\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.csprojResolveAssemblyReference.cache
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.exe
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\FacturaHost\obj\Debug\FacturaHost.pdb

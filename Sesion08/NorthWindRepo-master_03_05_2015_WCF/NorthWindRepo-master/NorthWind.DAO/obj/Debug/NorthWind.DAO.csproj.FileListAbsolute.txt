@@ -1,0 +1,21 @@
+C:\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.csprojResolveAssemblyReference.cache
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.DAO.dll
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.DAO.pdb
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.Entity.dll
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.Entity.pdb
+C:\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.dll
+C:\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.pdb
+C:\NET\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.DAO.pdb
+C:\NET\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.Entity.dll
+C:\NET\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.Entity.pdb
+C:\NET\NorthWindRepo-master\NorthWind.DAO\obj\Debug\NorthWind.DAO.csprojResolveAssemblyReference.cache
+C:\NET\NorthWindRepo-master\NorthWind.DAO\obj\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\NorthWind.DAO\obj\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.Entity.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\bin\Debug\NorthWind.Entity.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\obj\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\obj\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\NorthWind.DAO\obj\Debug\NorthWind.DAO.csprojResolveAssemblyReference.cache

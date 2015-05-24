@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2783/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NorthWind.Entity" />
+  <xs:element name="SelectAllClients">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAllClientsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NorthWind.Entity" minOccurs="0" name="SelectAllClientsResult" nillable="true" type="q1:ArrayOfTbClienteBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAllProducts">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAllProductsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NorthWind.Entity" minOccurs="0" name="SelectAllProductsResult" nillable="true" type="q2:ArrayOfTbProductoBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

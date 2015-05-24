@@ -1,0 +1,18 @@
+C:\NET\NorthWindRepo-master\Northwind.Logic\bin\Debug\Northwind.Logic.dll
+C:\NET\NorthWindRepo-master\Northwind.Logic\bin\Debug\Northwind.Logic.pdb
+C:\NET\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.DAO.dll
+C:\NET\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.Entity.dll
+C:\NET\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.DAO.pdb
+C:\NET\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.Entity.pdb
+C:\NET\NorthWindRepo-master\Northwind.Logic\obj\Debug\Northwind.Logic.csprojResolveAssemblyReference.cache
+C:\NET\NorthWindRepo-master\Northwind.Logic\obj\Debug\Northwind.Logic.dll
+C:\NET\NorthWindRepo-master\Northwind.Logic\obj\Debug\Northwind.Logic.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\bin\Debug\Northwind.Logic.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\bin\Debug\Northwind.Logic.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.Entity.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\bin\Debug\NorthWind.Entity.pdb
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\obj\Debug\Northwind.Logic.csprojResolveAssemblyReference.cache
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\obj\Debug\Northwind.Logic.dll
+C:\LanSchool Files\NorthWindRepo-master_03_05_2015_WCF\NorthWindRepo-master\Northwind.Logic\obj\Debug\Northwind.Logic.pdb
