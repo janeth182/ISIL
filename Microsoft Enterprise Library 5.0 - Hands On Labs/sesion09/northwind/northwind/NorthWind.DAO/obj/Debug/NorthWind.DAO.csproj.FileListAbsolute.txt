@@ -1,0 +1,26 @@
+C:\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.csprojResolveAssemblyReference.cache
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.DAO.dll
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.DAO.pdb
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.Entity.dll
+C:\northwind\NorthWind.DAO\bin\Debug\NorthWind.Entity.pdb
+C:\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.dll
+C:\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\NorthWind.Entity.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\NorthWind.Entity.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.csprojResolveAssemblyReference.cache
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\obj\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.Unity.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.DAO\bin\Debug\Microsoft.Practices.Unity.Interception.pdb

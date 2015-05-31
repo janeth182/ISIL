@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+  <User>
+    <UserName>Tom</UserName>
+    <Password>P@ssw0rd</Password>
+    <EMail>tom@contoso.com</EMail>
+    <Roles>Employee</Roles>
+  </User>
+  <User>
+    <UserName>Dick</UserName>
+    <Password>P@ssw0rd</Password>
+    <EMail>dick@contoso.com</EMail>
+    <Roles>Developer</Roles>
+  </User>
+  <User>
+    <UserName>Harry</UserName>
+    <Password>P@ssw0rd</Password>
+    <EMail>harry@contoso.com</EMail>
+    <Roles>Manager</Roles>
+  </User>
+</Users>

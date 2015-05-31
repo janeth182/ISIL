@@ -1,0 +1,15 @@
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\ProductMaintenance.exe.config
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\ProductMaintenance.exe
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\ProductMaintenance.pdb
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\obj\Debug\ProductMaintenance.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\obj\Debug\ProductMaintenance.MainForm.resources
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\obj\Debug\ProductMaintenance.csproj.GenerateResource.Cache
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\obj\Debug\ProductMaintenance.exe
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Data Access\exercises\ex02\begin\ProductMaintenance\obj\Debug\ProductMaintenance.pdb

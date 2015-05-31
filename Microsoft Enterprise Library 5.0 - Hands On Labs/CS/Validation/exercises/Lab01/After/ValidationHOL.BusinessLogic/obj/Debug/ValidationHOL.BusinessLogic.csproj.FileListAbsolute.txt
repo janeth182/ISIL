@@ -1,0 +1,15 @@
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\ValidationHOL.BusinessLogic.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\ValidationHOL.BusinessLogic.pdb
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.pdb
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.Properties.Resources.resources
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab01\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.csproj.GenerateResource.Cache

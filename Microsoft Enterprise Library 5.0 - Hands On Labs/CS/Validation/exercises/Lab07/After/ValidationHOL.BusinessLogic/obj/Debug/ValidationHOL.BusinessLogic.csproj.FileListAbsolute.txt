@@ -1,0 +1,7 @@
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\bin\Debug\ValidationHOL.BusinessLogic.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\bin\Debug\ValidationHOL.BusinessLogic.pdb
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.Properties.Resources.resources
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.csproj.GenerateResource.Cache
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.dll
+C:\Users\Alumno-SO\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\CS\Validation\exercises\Lab07\After\ValidationHOL.BusinessLogic\obj\Debug\ValidationHOL.BusinessLogic.pdb

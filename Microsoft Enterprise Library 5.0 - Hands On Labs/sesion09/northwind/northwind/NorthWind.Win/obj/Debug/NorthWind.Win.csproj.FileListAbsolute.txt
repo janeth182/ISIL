@@ -1,0 +1,101 @@
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\bin\Debug\NorthWind.Win.exe.config
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\bin\Debug\NorthWind.Win.exe
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\bin\Debug\NorthWind.Win.pdb
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.Properties.Resources.resources
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.csproj.GenerateResource.Cache
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.exe
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.pdb
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\bin\Debug\NorthWind.Entity.dll
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\bin\Debug\NorthWind.Entity.pdb
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.csprojResolveAssemblyReference.cache
+\\172.17.32.25\net\Sesion2\NorthwindSolution\NorthWind.Win\bin\Debug\NorthWind.Win.exe.config
+\\172.17.32.25\net\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.exe
+\\172.17.32.25\net\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.pdb
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.frmCliente.resources
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.frmProducto.resources
+C:\NET\Sesion2\NorthwindSolution\NorthWind.Win\obj\Debug\NorthWind.Win.frmDocumento.resources
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.exe.config
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.exe
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.pdb
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.Entity.dll
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.Entity.pdb
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.csprojResolveAssemblyReference.cache
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmCliente.resources
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmDocumento.resources
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmProducto.resources
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.Properties.Resources.resources
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.csproj.GenerateResource.Cache
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.exe
+C:\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.pdb
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.DAO.dll
+C:\northwind\NorthWind.Win\bin\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.exe.config
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.exe
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.exe
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.DAO.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Entity.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.DAO.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Entity.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.csprojResolveAssemblyReference.cache
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmCliente.resources
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmDocumento.resources
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmProducto.resources
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.Properties.Resources.resources
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.csproj.GenerateResource.Cache
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.xml
+C:\LanSchool Files\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.exe.config
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.exe
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.exe
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Win.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.DAO.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Entity.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.DAO.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\NorthWind.Entity.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.xml
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.csprojResolveAssemblyReference.cache
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmCliente.resources
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmDocumento.resources
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.frmProducto.resources
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.Properties.Resources.resources
+C:\sesion09\northwind\northwind\NorthWind.Win\obj\Debug\NorthWind.Win.csproj.GenerateResource.Cache
