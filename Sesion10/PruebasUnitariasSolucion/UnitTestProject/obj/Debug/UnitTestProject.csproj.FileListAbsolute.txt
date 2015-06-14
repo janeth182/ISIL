@@ -1,0 +1,6 @@
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTestProject\obj\Debug\UnitTestProject.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTestProject\bin\Debug\UnitTestProject.dll.CodeAnalysisLog.xml
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTestProject\bin\Debug\UnitTestProject.dll.lastcodeanalysissucceeded

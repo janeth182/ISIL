@@ -1,0 +1,7 @@
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\bin\Debug\PruebasLibrary.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\bin\Debug\PruebasLibrary.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\obj\Debug\PruebasLibrary.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\obj\Debug\PruebasLibrary.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\bin\Debug\nunit.framework.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\bin\Debug\nunit.framework.xml
+C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\obj\Debug\PruebasLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\bin\Debug\UnitTest.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\bin\Debug\UnitTest.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\bin\Debug\PruebasLibraryNET.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\bin\Debug\PruebasLibraryNET.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\obj\Debug\UnitTest.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\UnitTest\obj\Debug\UnitTest.pdb

@@ -1,0 +1,8 @@
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebTest1.webtest
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebTest2.webtest
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebAndLoadTestProject1.dll
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebAndLoadTestProject1.pdb
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.csprojResolveAssemblyReference.cache
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.dll
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.pdb
+C:\NET\Sesion10\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\LoadTest1.loadtest

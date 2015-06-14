@@ -1,0 +1,12 @@
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\bin\Debug\PruebasLibrary.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\bin\Debug\nunit.framework.dll
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\bin\Debug\PruebasLibrary.pdb
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\bin\Debug\nunit.framework.xml
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\obj\Debug\Ejemplo1.csprojResolveAssemblyReference.cache
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\obj\Debug\Ejemplo1.Form1.resources
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\obj\Debug\Ejemplo1.Properties.Resources.resources
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\obj\Debug\Ejemplo1.csproj.GenerateResource.Cache
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\NET\Sesion10\PruebasUnitariasSolucion\Ejemplo1\obj\Debug\Ejemplo1.pdb

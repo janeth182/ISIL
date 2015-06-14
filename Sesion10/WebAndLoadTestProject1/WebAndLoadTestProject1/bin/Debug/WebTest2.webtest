@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest2" Id="62ceefc6-0eca-475b-aa0e-4af6eb120e62" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest2.b5aafe43-be35-4ab8-b6cc-e0b439c955b8.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="82bbc9f6-dc23-4a18-af7c-3bcfed8ecd58" Version="1.1" Url="http://isil.pe/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="3fc6f759-d8cf-4764-a1cc-098544843f5c" Version="1.1" Url="http://isil.pe/myriadsemibold.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://isil.pe/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="292cfade-cee1-4aa7-8fc3-4c3f52ecc432" Version="1.1" Url="http://isil.pe/myriadpro-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://isil.pe/" />
+          </Headers>
+        </Request>
+        <Request Method="POST" Guid="c75d3e32-cb1b-4e94-8ca9-1b1e943f0109" Version="1.1" Url="https://urs.microsoft.com/urs.asmx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="SOAPAction" Value="&quot;http://Microsoft.STS.STSWeb/RepLookup&quot;" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="MSURS-Client-Key" Value="3plWr30%2b/p0Lnw67UKXu8Q%3d%3d" RecordedValue="3plWr30%2b/p0Lnw67UKXu8Q%3d%3d" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="MSURS-Patented-Lock" Value="8uWrMf9ygQM%3d" RecordedValue="8uWrMf9ygQM%3d" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <StringHttpBody ContentType="text/xml; charset=utf-8" InsertByteOrderMark="False">PABzAG8AYQBwADoARQBuAHYAZQBsAG8AcABlACAAeABtAGwAbgBzADoAcwBvAGEAcAA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AeABtAGwAcwBvAGEAcAAuAG8AcgBnAC8AcwBvAGEAcAAvAGUAbgB2AGUAbABvAHAAZQAvACIAIAB4AG0AbABuAHMAOgB4AHMAaQA9ACIAaAB0AHQAcAA6AC8ALwB3AHcAdwAuAHcAMwAuAG8AcgBnAC8AMgAwADAAMQAvAFgATQBMAFMAYwBoAGUAbQBhAC0AaQBuAHMAdABhAG4AYwBlACIAIAB4AG0AbABuAHMAOgB4AHMAZAA9ACIAaAB0AHQAcAA6AC8ALwB3AHcAdwAuAHcAMwAuAG8AcgBnAC8AMgAwADAAMQAvAFgATQBMAFMAYwBoAGUAbQBhACIAIAB4AG0AbABuAHMAOgBzAG8AYQBwAGUAbgBjAD0AIgBoAHQAdABwADoALwAvAHMAYwBoAGUAbQBhAHMALgB4AG0AbABzAG8AYQBwAC4AbwByAGcALwBzAG8AYQBwAC8AZQBuAGMAbwBkAGkAbgBnAC8AIgA+ADwAcwBvAGEAcAA6AEIAbwBkAHkAPgA8AFIAZQBwAEwAbwBvAGsAdQBwACAAeABtAGwAbgBzAD0AIgBoAHQAdABwADoALwAvAE0AaQBjAHIAbwBzAG8AZgB0AC4AUwBUAFMALgBTAFQAUwBXAGUAYgAvACIAPgA8AEcAPgB7ADIAQwBFAEQAQgBGAEIAQwAtAEQAQgBBADgALQA0ADMAQQBBAC0AQgAxAEYARAAtAEMAQwA4AEUANgAzADEANgBFADMARQAyAH0APAAvAEcAPgA8AE8APgAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAA8AC8ATwA+ADwAUAA+AHsARABGADkAMAA2ADIARAA1AC0ANQA2ADAANQAtADQAOABFAEQALQA5AEYANwA5AC0AQwBCADkANwAzAEMANAA0ADkANQAxADIAfQA8AC8AUAA+ADwARAA+ADgALgAwAC4ANgAwADAAMQAuADkAPAAvAEQAPgA8AEMAPgA4AC4AMAAwAC4ANgAwADAAMQAuADEAOAA2ADYAOQA8AC8AQwA+ADwAUwA+ADYALgAxAC4ANwA2ADAAMQAuADEALgAwADwALwBTAD4APABJAD4AOAAuADAALgA3ADYAMAAxAC4AMQA3ADUAMQA0ADwALwBJAD4APABMAD4AZQBzAC0ARQBTADwALwBMAD4APABSACAAeABtAGwAbgBzADoAcQAxAD0AIgBoAHQAdABwADoALwAvAE0AaQBjAHIAbwBzAG8AZgB0AC4AUwBUAFMALgBTAFQAUwBXAGUAYgAvACIAIABzAG8AYQBwAGUAbgBjADoAYQByAHIAYQB5AFQAeQBwAGUAPQAiAHEAMQA6AFIAcQBbADEAXQAiAD4APABSAHEAPgA8AFQAPgBVAFIATAA8AC8AVAA+ADwAUgA+AGgAdAB0AHAAOgAvAC8AaQBzAGkAbAAuAHAAZQA8AC8AUgA+ADwATwA+AFAAUgBFADwALwBPAD4APABXAD4ARgBSAEEATQBFADwALwBXAD4APAAvAFIAcQA+ADwALwBSAD4APAAvAFIAZQBwAEwAbwBvAGsAdQBwAD4APAAvAHMAbwBhAHAAOgBCAG8AZAB5AD4APAAvAHMAbwBhAHAAOgBFAG4AdgBlAGwAbwBwAGUAPgA=</StringHttpBody>
+        </Request>
+        <Request Method="GET" Guid="03149898-964d-4d25-beaa-3b21f0a7f9f4" Version="1.1" Url="http://bs.serving-sys.com/BurstingPipe/ActivityServer.bs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://isil.pe/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="cn" Value="as" RecordedValue="as" CorrelationBinding="{{QueryStringParam3.cn}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ActivityID" Value="125236" RecordedValue="125236" CorrelationBinding="{{QueryStringParam4.ActivityID}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rnd" Value="126482.13041066602" RecordedValue="126482.13041066602" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.cn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?cn=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4.ActivityID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ActivityID=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Dirección URL de respuesta" Description="Comprueba que la dirección URL de respuesta tras el seguimiento de las redirecciones es la misma que la dirección URL de respuesta registrada. Se omiten los parámetros de QueryString." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Objetivo de tiempo de respuesta" Description="Valida que el tiempo de respuesta de la solicitud sea menor o igual que el objetivo de tiempo de respuesta especificado en la solicitud. Se pasarán por alto los objetivos de tiempo de respuesta que sean cero." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

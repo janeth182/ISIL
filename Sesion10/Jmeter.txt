@@ -1,0 +1,6 @@
+http://www.linti.unlp.edu.ar/uploads/docs/usando_jmeter_para_pruebas_de_rendimiento.pdf
+
+http://desarrollowebtutorial.com/pruebas-de-carga-de-un-sitio-web-con-jmeter/
+
+
+http://www.arquitecturajava.com/introduccion-jmeter-y-pruebas-de-carga/

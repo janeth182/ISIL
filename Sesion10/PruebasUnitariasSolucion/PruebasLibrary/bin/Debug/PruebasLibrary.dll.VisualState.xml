@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1012]C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\bin\Debug\PruebasLibrary.dll</TopNode>
+  <SelectedNode>[0-1010]PruebasLibrary.TestClass2.WithdrawTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1012]C:\NET\Sesion10\PruebasUnitariasSolucion\PruebasLibrary\bin\Debug\PruebasLibrary.dll" Expanded="true" />
+    <Node UniqueName="[0-1013]PruebasLibrary" Expanded="true" />
+    <Node UniqueName="[0-1000]PruebasLibrary.TestClass1" Expanded="true" />
+    <Node UniqueName="[0-1001]PruebasLibrary.TestClass1.AddTest" Expanded="true" />
+    <Node UniqueName="[0-1005]PruebasLibrary.TestClass1.DivTest" Expanded="true" />
+    <Node UniqueName="[0-1003]PruebasLibrary.TestClass1.SubstractTest" Expanded="true" />
+    <Node UniqueName="[0-1007]PruebasLibrary.TestClass2" Expanded="true" />
+  </Nodes>
+</VisualState>

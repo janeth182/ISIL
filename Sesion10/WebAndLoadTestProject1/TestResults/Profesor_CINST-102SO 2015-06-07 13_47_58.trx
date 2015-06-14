@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a204fda2-7270-4521-86c1-5d0e852638fd" name="Profesor@CINST-102SO 2015-06-07 13:47:58" runUser="CINST-102SO\Profesor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="928497ff-9f03-4aac-a7dc-6167769069a8">
+    <Description>Esta es la configuración de pruebas predeterminada para una serie de pruebas local.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Profesor_CINST-102SO 2015-06-07 13_47_58" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2015-06-07T13:47:58.6445774-05:00" queuing="2015-06-07T13:47:58.9595781-05:00" start="2015-06-07T13:47:59.1165784-05:00" finish="2015-06-07T13:49:37.9001850-05:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\net\sesion10\webandloadtestproject1\webandloadtestproject1\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Configuración de ejecución1" Id="03e113f8-8198-4273-b64f-24030cd54e2c">
+      <Scenarios>
+        <Scenario Name="Escenario1" DelayBetweenIterations="2" PercentNewUsers="0" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+          <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
+          <LoadProfile Pattern="Constant" InitialUsers="51" />
+          <TestMix>
+            <TestProfile Name="WebTest2" Path="c:\net\sesion10\webandloadtestproject1\webandloadtestproject1\webtest2.webtest" Id="62ceefc6-0eca-475b-aa0e-4af6eb120e62" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+          </TestMix>
+          <BrowserMix>
+            <BrowserProfile Percentage="100">
+              <Browser Name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header Name="User-Agent" Value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header Name="Accept" Value="*/*" />
+                  <Header Name="Accept-Language" Value="{{$IEAcceptLanguage}}" />
+                  <Header Name="Accept-Encoding" Value="GZIP" />
+                </Headers>
+              </Browser>
+            </BrowserProfile>
+          </BrowserMix>
+          <NetworkMix>
+            <NetworkProfile Percentage="100">
+              <Network Name="LAN" BandwidthInKbps="1000000" NetworkProfileConfigurationXml="&lt;Emulation&gt;&lt;VirtualChannel name=&quot;defaultChannel&quot;&gt;&lt;FilterList/&gt;&lt;VirtualLink instances=&quot;1&quot; name=&quot;defaultLink&quot;&gt;&lt;LinkRule dir=&quot;upstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;LinkRule dir=&quot;downstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;/VirtualLink&gt;&lt;/VirtualChannel&gt;&lt;/Emulation&gt;" />
+            </NetworkProfile>
+          </NetworkMix>
+        </Scenario>
+      </Scenarios>
+      <CounterSets>
+        <CounterSet Name="CINST-102SO" CounterSetType="LoadTest" LocId="">
+          <CounterCategories>
+            <CounterCategory Name="LoadTest:Scenario">
+              <Counters>
+                <Counter Name="User Load" HigherIsBetter="true" />
+                <Counter Name="Tests Running" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Test">
+              <Counters>
+                <Counter Name="Total Tests" HigherIsBetter="true" />
+                <Counter Name="Passed Tests" HigherIsBetter="true" />
+                <Counter Name="Failed Tests" />
+                <Counter Name="Tests/Sec" HigherIsBetter="true" />
+                <Counter Name="Passed Tests/Sec" HigherIsBetter="true" />
+                <Counter Name="Failed Tests/Sec" />
+                <Counter Name="Avg. Requests/Test" HigherIsBetter="true" />
+                <Counter Name="Avg. Test Time" />
+                <Counter Name="% Time in LoadTestPlugin" />
+                <Counter Name="% Time in WebTest code" />
+                <Counter Name="% Time in Rules" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Transaction">
+              <Counters>
+                <Counter Name="Total Transactions" HigherIsBetter="true" />
+                <Counter Name="Avg. Transaction Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Transactions/Sec" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Errors">
+              <Counters>
+                <Counter Name="Http Errors" />
+                <Counter Name="Validation Rule Errors" />
+                <Counter Name="Extraction Rule Errors" />
+                <Counter Name="Requests Timed Out" />
+                <Counter Name="Exceptions" />
+                <Counter Name="Total Errors" />
+                <Counter Name="Errores por segundo" />
+                <Counter Name="Infracciones de umbral por segundo" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Page">
+              <Counters>
+                <Counter Name="Total Pages" HigherIsBetter="true" />
+                <Counter Name="Avg. Page Time" />
+                <Counter Name="Page Response Time Goal" HigherIsBetter="true" />
+                <Counter Name="% Pages Meeting Goal" HigherIsBetter="true" />
+                <Counter Name="Pages/Sec" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Request">
+              <Counters>
+                <Counter Name="Total Requests" HigherIsBetter="true" />
+                <Counter Name="Passed Requests" HigherIsBetter="true" />
+                <Counter Name="Failed Requests" />
+                <Counter Name="Cached Requests" HigherIsBetter="true" />
+                <Counter Name="Requests/Sec" HigherIsBetter="true" />
+                <Counter Name="Passed Requests/Sec" HigherIsBetter="true" />
+                <Counter Name="Failed Requests/Sec" />
+                <Counter Name="Avg. First Byte Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Avg. Connection Wait Time">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="LoadTest:Page" />
+                        <RuleParameter Name="DependentCounter" Value="Avg. Page Time" />
+                        <RuleParameter Name="DependentInstance" Value="_Total" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.25" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.5" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Content Length" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:LogEntries">
+              <Counters>
+                <Counter Name="Total Log Entries" />
+                <Counter Name="Log Entries/Sec" />
+              </Counters>
+            </CounterCategory>
+          </CounterCategories>
+        </CounterSet>
+        <CounterSet Name="Controlador" CounterSetType="Controller" LocId="CounterSet_Controller">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" Range="100" />
+                <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Output Queue Length">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+                <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+                <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" Range="100" />
+                <Counter Name="% Disk Time" Range="100" />
+                <Counter Name="% Disk Write Time" Range="100" />
+                <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+                <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" Range="100">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" Range="100" />
+                <Counter Name="% User Time" Range="100" />
+              </Counters>
+              <Instances>
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+                <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+                <Counter Name="% User Time" RangeGroup="Processor Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+              </Counters>
+              <Instances>
+                <Instance Name="QTController" />
+                <Instance Name="QTController64" />
+              </Instances>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+        <CounterSet Name="Agente" CounterSetType="Agent" LocId="CounterSet_Agent">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" Range="100" />
+                <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Output Queue Length">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+                <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+                <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" Range="100" />
+                <Counter Name="% Disk Time" Range="100" />
+                <Counter Name="% Disk Write Time" Range="100" />
+                <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+                <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" Range="100">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" Range="100" />
+                <Counter Name="% User Time" Range="100" />
+              </Counters>
+              <Instances>
+                <Instance Name="0" />
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+                <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+                <Counter Name="% User Time" RangeGroup="Processor Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+              </Counters>
+              <Instances>
+                <Instance Name="devenv" />
+                <Instance Name="QTAgentService" />
+                <Instance Name="QTAgent" />
+                <Instance Name="QTAgent32" />
+                <Instance Name="QTDCAgent" />
+                <Instance Name="QTDCAgent32" />
+                <Instance Name="QTAgent_35" />
+                <Instance Name="QTAgent_40" />
+                <Instance Name="QTAgent32_35" />
+                <Instance Name="QTAgent32_40" />
+              </Instances>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="0" GraphName="" RunType="Local" />
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" RunType="Remote" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+      </CounterSets>
+      <RunConfigurations>
+        <RunConfiguration Name="Configuración de ejecución1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="true" RunDuration="600" WarmupTime="0" CoolDownTime="0" TestIterations="105" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="5" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0">
+          <CounterSetMappings>
+            <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="LoadTest" />
+                <CounterSetReference CounterSetName="Controlador" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+            <CounterSetMapping ComputerName="[AGENT MACHINES]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="Agente" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+          </CounterSetMappings>
+        </RunConfiguration>
+      </RunConfigurations>
+    </LoadTest>
+    <WebTest name="WebTest2" storage="c:\net\sesion10\webandloadtestproject1\webandloadtestproject1\webtest2.webtest" id="62ceefc6-0eca-475b-aa0e-4af6eb120e62" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iV2ViVGVzdDIiIElkPSI2MmNlZWZjNi0wZWNhLTQ3NWItYWEwZS00YWY2ZWIxMjBlNjIiIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSJkZWZhdWx0IiBTdG9wT25FcnJvcj0iRmFsc2UiIFJlY29yZGVkUmVzdWx0RmlsZT0iV2ViVGVzdDIuYjVhYWZlNDMtYmUzNS00YWI4LWI2Y2MtZTBiNDM5Yzk1NWI4LnJlYy53ZWJ0ZXN0cmVzdWx0IiBSZXN1bHRzTG9jYWxlPSIiPg0KICA8SXRlbXM+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9IjgyYmJjOWY2LWRjMjMtNGExOC1hZjdjLTNiY2ZlZDhlY2Q1OCIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9pc2lsLnBlLyIgVGhpbmtUaW1lPSIwIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iIiBSZXBvcnRpbmdOYW1lPSIiIElnbm9yZUh0dHBTdGF0dXNDb2RlPSJGYWxzZSI+DQogICAgICA8RGVwZW5kZW50UmVxdWVzdHM+DQogICAgICAgIDxSZXF1ZXN0IE1ldGhvZD0iR0VUIiBHdWlkPSIzZmM2Zjc1OS1kOGNmLTQ3NjQtYTFjYy0wOTg1NDQ4NDNmNWMiIFZlcnNpb249IjEuMSIgVXJsPSJodHRwOi8vaXNpbC5wZS9teXJpYWRzZW1pYm9sZC5lb3QiIFRoaW5rVGltZT0iMCIgVGltZW91dD0iMzAwIiBQYXJzZURlcGVuZGVudFJlcXVlc3RzPSJUcnVlIiBGb2xsb3dSZWRpcmVjdHM9IlRydWUiIFJlY29yZFJlc3VsdD0iVHJ1ZSIgQ2FjaGU9IkZhbHNlIiBSZXNwb25zZVRpbWVHb2FsPSIwIiBFbmNvZGluZz0idXRmLTgiIEV4cGVjdGVkSHR0cFN0YXR1c0NvZGU9IjAiIEV4cGVjdGVkUmVzcG9uc2VVcmw9IiIgUmVwb3J0aW5nTmFtZT0iIiBJZ25vcmVIdHRwU3RhdHVzQ29kZT0iRmFsc2UiPg0KICAgICAgICAgIDxIZWFkZXJzPg0KICAgICAgICAgICAgPEhlYWRlciBOYW1lPSJSZWZlcmVyIiBWYWx1ZT0iaHR0cDovL2lzaWwucGUvIiAvPg0KICAgICAgICAgIDwvSGVhZGVycz4NCiAgICAgICAgPC9SZXF1ZXN0Pg0KICAgICAgICA8UmVxdWVzdCBNZXRob2Q9IkdFVCIgR3VpZD0iMjkyY2ZhZGUtY2VlMS00YWE3LThmYzMtNGMzZjUyZWNjNDMyIiBWZXJzaW9uPSIxLjEiIFVybD0iaHR0cDovL2lzaWwucGUvbXlyaWFkcHJvLXJlZ3VsYXIuZW90IiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgSWdub3JlSHR0cFN0YXR1c0NvZGU9IkZhbHNlIj4NCiAgICAgICAgICA8SGVhZGVycz4NCiAgICAgICAgICAgIDxIZWFkZXIgTmFtZT0iUmVmZXJlciIgVmFsdWU9Imh0dHA6Ly9pc2lsLnBlLyIgLz4NCiAgICAgICAgICA8L0hlYWRlcnM+DQogICAgICAgIDwvUmVxdWVzdD4NCiAgICAgICAgPFJlcXVlc3QgTWV0aG9kPSJQT1NUIiBHdWlkPSJjNzVkM2UzMi1jYjFiLTRlOTQtOGNhOS0xYjFlOTQzZjAxMDkiIFZlcnNpb249IjEuMSIgVXJsPSJodHRwczovL3Vycy5taWNyb3NvZnQuY29tL3Vycy5hc214IiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgSWdub3JlSHR0cFN0YXR1c0NvZGU9IkZhbHNlIj4NCiAgICAgICAgICA8SGVhZGVycz4NCiAgICAgICAgICAgIDxIZWFkZXIgTmFtZT0iU09BUEFjdGlvbiIgVmFsdWU9IiZxdW90O2h0dHA6Ly9NaWNyb3NvZnQuU1RTLlNUU1dlYi9SZXBMb29rdXAmcXVvdDsiIC8+DQogICAgICAgICAgPC9IZWFkZXJzPg0KICAgICAgICAgIDxRdWVyeVN0cmluZ1BhcmFtZXRlcnM+DQogICAgICAgICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXIgTmFtZT0iTVNVUlMtQ2xpZW50LUtleSIgVmFsdWU9IjNwbFdyMzAlMmIvcDBMbnc2N1VLWHU4USUzZCUzZCIgUmVjb3JkZWRWYWx1ZT0iM3BsV3IzMCUyYi9wMExudzY3VUtYdThRJTNkJTNkIiBDb3JyZWxhdGlvbkJpbmRpbmc9IiIgVXJsRW5jb2RlPSJGYWxzZSIgVXNlVG9Hcm91cFJlc3VsdHM9IkZhbHNlIiAvPg0KICAgICAgICAgICAgPFF1ZXJ5U3RyaW5nUGFyYW1ldGVyIE5hbWU9Ik1TVVJTLVBhdGVudGVkLUxvY2siIFZhbHVlPSI4dVdyTWY5eWdRTSUzZCIgUmVjb3JkZWRWYWx1ZT0iOHVXck1mOXlnUU0lM2QiIENvcnJlbGF0aW9uQmluZGluZz0iIiBVcmxFbmNvZGU9IkZhbHNlIiBVc2VUb0dyb3VwUmVzdWx0cz0iRmFsc2UiIC8+DQogICAgICAgICAgPC9RdWVyeVN0cmluZ1BhcmFtZXRlcnM+DQogICAgICAgICAgPFN0cmluZ0h0dHBCb2R5IENvbnRlbnRUeXBlPSJ0ZXh0L3htbDsgY2hhcnNldD11dGYtOCIgSW5zZXJ0Qnl0ZU9yZGVyTWFyaz0iRmFsc2UiPlBBQnpBRzhBWVFCd0FEb0FSUUJ1QUhZQVpRQnNBRzhBY0FCbEFDQUFlQUJ0QUd3QWJnQnpBRG9BY3dCdkFHRUFjQUE5QUNJQWFBQjBBSFFBY0FBNkFDOEFMd0J6QUdNQWFBQmxBRzBBWVFCekFDNEFlQUJ0QUd3QWN3QnZBR0VBY0FBdUFHOEFjZ0JuQUM4QWN3QnZBR0VBY0FBdkFHVUFiZ0IyQUdVQWJBQnZBSEFBWlFBdkFDSUFJQUI0QUcwQWJBQnVBSE1BT2dCNEFITUFhUUE5QUNJQWFBQjBBSFFBY0FBNkFDOEFMd0IzQUhjQWR3QXVBSGNBTXdBdUFHOEFjZ0JuQUM4QU1nQXdBREFBTVFBdkFGZ0FUUUJNQUZNQVl3Qm9BR1VBYlFCaEFDMEFhUUJ1QUhNQWRBQmhBRzRBWXdCbEFDSUFJQUI0QUcwQWJBQnVBSE1BT2dCNEFITUFaQUE5QUNJQWFBQjBBSFFBY0FBNkFDOEFMd0IzQUhjQWR3QXVBSGNBTXdBdUFHOEFjZ0JuQUM4QU1nQXdBREFBTVFBdkFGZ0FUUUJNQUZNQVl3Qm9BR1VBYlFCaEFDSUFJQUI0QUcwQWJBQnVBSE1BT2dCekFHOEFZUUJ3QUdVQWJnQmpBRDBBSWdCb0FIUUFkQUJ3QURvQUx3QXZBSE1BWXdCb0FHVUFiUUJoQUhNQUxnQjRBRzBBYkFCekFHOEFZUUJ3QUM0QWJ3QnlBR2NBTHdCekFHOEFZUUJ3QUM4QVpRQnVBR01BYndCa0FHa0FiZ0JuQUM4QUlnQStBRHdBY3dCdkFHRUFjQUE2QUVJQWJ3QmtBSGtBUGdBOEFGSUFaUUJ3QUV3QWJ3QnZBR3NBZFFCd0FDQUFlQUJ0QUd3QWJnQnpBRDBBSWdCb0FIUUFkQUJ3QURvQUx3QXZBRTBBYVFCakFISUFid0J6QUc4QVpnQjBBQzRBVXdCVUFGTUFMZ0JUQUZRQVV3QlhBR1VBWWdBdkFDSUFQZ0E4QUVjQVBnQjdBRElBUXdCRkFFUUFRZ0JHQUVJQVF3QXRBRVFBUWdCQkFEZ0FMUUEwQURNQVFRQkJBQzBBUWdBeEFFWUFSQUF0QUVNQVF3QTRBRVVBTmdBekFERUFOZ0JGQURNQVJRQXlBSDBBUEFBdkFFY0FQZ0E4QUU4QVBnQXdBREFBTUFBd0FEQUFNQUF3QURBQUxRQXdBREFBTUFBd0FDMEFNQUF3QURBQU1BQXRBREFBTUFBd0FEQUFMUUF3QURBQU1BQXdBREFBTUFBd0FEQUFNQUF3QURBQU1BQThBQzhBVHdBK0FEd0FVQUErQUhzQVJBQkdBRGtBTUFBMkFESUFSQUExQUMwQU5RQTJBREFBTlFBdEFEUUFPQUJGQUVRQUxRQTVBRVlBTndBNUFDMEFRd0JDQURrQU53QXpBRU1BTkFBMEFEa0FOUUF4QURJQWZRQThBQzhBVUFBK0FEd0FSQUErQURnQUxnQXdBQzRBTmdBd0FEQUFNUUF1QURrQVBBQXZBRVFBUGdBOEFFTUFQZ0E0QUM0QU1BQXdBQzRBTmdBd0FEQUFNUUF1QURFQU9BQTJBRFlBT1FBOEFDOEFRd0ErQUR3QVV3QStBRFlBTGdBeEFDNEFOd0EyQURBQU1RQXVBREVBTGdBd0FEd0FMd0JUQUQ0QVBBQkpBRDRBT0FBdUFEQUFMZ0EzQURZQU1BQXhBQzRBTVFBM0FEVUFNUUEwQUR3QUx3QkpBRDRBUEFCTUFENEFaUUJ6QUMwQVJRQlRBRHdBTHdCTUFENEFQQUJTQUNBQWVBQnRBR3dBYmdCekFEb0FjUUF4QUQwQUlnQm9BSFFBZEFCd0FEb0FMd0F2QUUwQWFRQmpBSElBYndCekFHOEFaZ0IwQUM0QVV3QlVBRk1BTGdCVEFGUUFVd0JYQUdVQVlnQXZBQ0lBSUFCekFHOEFZUUJ3QUdVQWJnQmpBRG9BWVFCeUFISUFZUUI1QUZRQWVRQndBR1VBUFFBaUFIRUFNUUE2QUZJQWNRQmJBREVBWFFBaUFENEFQQUJTQUhFQVBnQThBRlFBUGdCVkFGSUFUQUE4QUM4QVZBQStBRHdBVWdBK0FHZ0FkQUIwQUhBQU9nQXZBQzhBYVFCekFHa0FiQUF1QUhBQVpRQThBQzhBVWdBK0FEd0FUd0ErQUZBQVVnQkZBRHdBTHdCUEFENEFQQUJYQUQ0QVJnQlNBRUVBVFFCRkFEd0FMd0JYQUQ0QVBBQXZBRklBY1FBK0FEd0FMd0JTQUQ0QVBBQXZBRklBWlFCd0FFd0Fid0J2QUdzQWRRQndBRDRBUEFBdkFITUFid0JoQUhBQU9nQkNBRzhBWkFCNUFENEFQQUF2QUhNQWJ3QmhBSEFBT2dCRkFHNEFkZ0JsQUd3QWJ3QndBR1VBUGdBPTwvU3RyaW5nSHR0cEJvZHk+DQogICAgICAgIDwvUmVxdWVzdD4NCiAgICAgICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9IjAzMTQ5ODk4LTk2NGQtNGQyNS1iZWFhLTNiMjFmMGE3ZjlmNCIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9icy5zZXJ2aW5nLXN5cy5jb20vQnVyc3RpbmdQaXBlL0FjdGl2aXR5U2VydmVyLmJzIiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgSWdub3JlSHR0cFN0YXR1c0NvZGU9IkZhbHNlIj4NCiAgICAgICAgICA8SGVhZGVycz4NCiAgICAgICAgICAgIDxIZWFkZXIgTmFtZT0iUmVmZXJlciIgVmFsdWU9Imh0dHA6Ly9pc2lsLnBlLyIgLz4NCiAgICAgICAgICA8L0hlYWRlcnM+DQogICAgICAgICAgPFF1ZXJ5U3RyaW5nUGFyYW1ldGVycz4NCiAgICAgICAgICAgIDxRdWVyeVN0cmluZ1BhcmFtZXRlciBOYW1lPSJjbiIgVmFsdWU9ImFzIiBSZWNvcmRlZFZhbHVlPSJhcyIgQ29ycmVsYXRpb25CaW5kaW5nPSJ7e1F1ZXJ5U3RyaW5nUGFyYW0zLmNufX0iIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgICAgIDxRdWVyeVN0cmluZ1BhcmFtZXRlciBOYW1lPSJBY3Rpdml0eUlEIiBWYWx1ZT0iMTI1MjM2IiBSZWNvcmRlZFZhbHVlPSIxMjUyMzYiIENvcnJlbGF0aW9uQmluZGluZz0ie3tRdWVyeVN0cmluZ1BhcmFtNC5BY3Rpdml0eUlEfX0iIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgICAgIDxRdWVyeVN0cmluZ1BhcmFtZXRlciBOYW1lPSJybmQiIFZhbHVlPSIxMjY0ODIuMTMwNDEwNjY2MDIiIFJlY29yZGVkVmFsdWU9IjEyNjQ4Mi4xMzA0MTA2NjYwMiIgQ29ycmVsYXRpb25CaW5kaW5nPSIiIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgICA8L1F1ZXJ5U3RyaW5nUGFyYW1ldGVycz4NCiAgICAgICAgPC9SZXF1ZXN0Pg0KICAgICAgPC9EZXBlbmRlbnRSZXF1ZXN0cz4NCiAgICAgIDxDb3JyZWxhdGlvbkV4dHJhY3Rpb25SdWxlcz4NCiAgICAgICAgPEV4dHJhY3Rpb25SdWxlIENsYXNzbmFtZT0iTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5UZXN0VG9vbHMuV2ViVGVzdGluZy5SdWxlcy5FeHRyYWN0VGV4dCwgTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5RdWFsaXR5VG9vbHMuV2ViVGVzdEZyYW1ld29yaywgVmVyc2lvbj0xMC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhIiBWYXJpYWJsZU5hbWU9IlF1ZXJ5U3RyaW5nUGFyYW0zLmNuIiBEaXNwbGF5TmFtZT0iIiBEZXNjcmlwdGlvbj0iIj4NCiAgICAgICAgICA8UnVsZVBhcmFtZXRlcnM+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJTdGFydHNXaXRoIiBWYWx1ZT0iP2NuPSIgLz4NCiAgICAgICAgICAgIDxSdWxlUGFyYW1ldGVyIE5hbWU9IkVuZHNXaXRoIiBWYWx1ZT0iJmFtcDsiIC8+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJJbmRleCIgVmFsdWU9IjAiIC8+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJJZ25vcmVDYXNlIiBWYWx1ZT0iRmFsc2UiIC8+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJVc2VSZWd1bGFyRXhwcmVzc2lvbiIgVmFsdWU9IkZhbHNlIiAvPg0KICAgICAgICAgICAgPFJ1bGVQYXJhbWV0ZXIgTmFtZT0iSHRtbERlY29kZSIgVmFsdWU9IlRydWUiIC8+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJSZXF1aXJlZCIgVmFsdWU9IkZhbHNlIiAvPg0KICAgICAgICAgIDwvUnVsZVBhcmFtZXRlcnM+DQogICAgICAgIDwvRXh0cmFjdGlvblJ1bGU+DQogICAgICAgIDxFeHRyYWN0aW9uUnVsZSBDbGFzc25hbWU9Ik1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uVGVzdFRvb2xzLldlYlRlc3RpbmcuUnVsZXMuRXh0cmFjdFRleHQsIE1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uUXVhbGl0eVRvb2xzLldlYlRlc3RGcmFtZXdvcmssIFZlcnNpb249MTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYSIgVmFyaWFibGVOYW1lPSJRdWVyeVN0cmluZ1BhcmFtNC5BY3Rpdml0eUlEIiBEaXNwbGF5TmFtZT0iIiBEZXNjcmlwdGlvbj0iIj4NCiAgICAgICAgICA8UnVsZVBhcmFtZXRlcnM+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJTdGFydHNXaXRoIiBWYWx1ZT0iJmFtcDthbXA7QWN0aXZpdHlJRD0iIC8+DQogICAgICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJFbmRzV2l0aCIgVmFsdWU9IiZhbXA7IiAvPg0KICAgICAgICAgICAgPFJ1bGVQYXJhbWV0ZXIgTmFtZT0iSW5kZXgiIFZhbHVlPSIwIiAvPg0KICAgICAgICAgICAgPFJ1bGVQYXJhbWV0ZXIgTmFtZT0iSWdub3JlQ2FzZSIgVmFsdWU9IkZhbHNlIiAvPg0KICAgICAgICAgICAgPFJ1bGVQYXJhbWV0ZXIgTmFtZT0iVXNlUmVndWxhckV4cHJlc3Npb24iIFZhbHVlPSJGYWxzZSIgLz4NCiAgICAgICAgICAgIDxSdWxlUGFyYW1ldGVyIE5hbWU9Ikh0bWxEZWNvZGUiIFZhbHVlPSJUcnVlIiAvPg0KICAgICAgICAgICAgPFJ1bGVQYXJhbWV0ZXIgTmFtZT0iUmVxdWlyZWQiIFZhbHVlPSJGYWxzZSIgLz4NCiAgICAgICAgICA8L1J1bGVQYXJhbWV0ZXJzPg0KICAgICAgICA8L0V4dHJhY3Rpb25SdWxlPg0KICAgICAgPC9Db3JyZWxhdGlvbkV4dHJhY3Rpb25SdWxlcz4NCiAgICA8L1JlcXVlc3Q+DQogIDwvSXRlbXM+DQogIDxWYWxpZGF0aW9uUnVsZXM+DQogICAgPFZhbGlkYXRpb25SdWxlIENsYXNzbmFtZT0iTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5UZXN0VG9vbHMuV2ViVGVzdGluZy5SdWxlcy5WYWxpZGF0ZVJlc3BvbnNlVXJsLCBNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLlF1YWxpdHlUb29scy5XZWJUZXN0RnJhbWV3b3JrLCBWZXJzaW9uPTEwLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EiIERpc3BsYXlOYW1lPSJEaXJlY2Npw7NuIFVSTCBkZSByZXNwdWVzdGEiIERlc2NyaXB0aW9uPSJDb21wcnVlYmEgcXVlIGxhIGRpcmVjY2nDs24gVVJMIGRlIHJlc3B1ZXN0YSB0cmFzIGVsIHNlZ3VpbWllbnRvIGRlIGxhcyByZWRpcmVjY2lvbmVzIGVzIGxhIG1pc21hIHF1ZSBsYSBkaXJlY2Npw7NuIFVSTCBkZSByZXNwdWVzdGEgcmVnaXN0cmFkYS4gU2Ugb21pdGVuIGxvcyBwYXLDoW1ldHJvcyBkZSBRdWVyeVN0cmluZy4iIExldmVsPSJMb3ciIEV4ZWN0dWlvbk9yZGVyPSJCZWZvcmVEZXBlbmRlbnRzIiAvPg0KICAgIDxWYWxpZGF0aW9uUnVsZSBDbGFzc25hbWU9Ik1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uVGVzdFRvb2xzLldlYlRlc3RpbmcuUnVsZXMuVmFsaWRhdGlvblJ1bGVSZXNwb25zZVRpbWVHb2FsLCBNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLlF1YWxpdHlUb29scy5XZWJUZXN0RnJhbWV3b3JrLCBWZXJzaW9uPTEwLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EiIERpc3BsYXlOYW1lPSJPYmpldGl2byBkZSB0aWVtcG8gZGUgcmVzcHVlc3RhIiBEZXNjcmlwdGlvbj0iVmFsaWRhIHF1ZSBlbCB0aWVtcG8gZGUgcmVzcHVlc3RhIGRlIGxhIHNvbGljaXR1ZCBzZWEgbWVub3IgbyBpZ3VhbCBxdWUgZWwgb2JqZXRpdm8gZGUgdGllbXBvIGRlIHJlc3B1ZXN0YSBlc3BlY2lmaWNhZG8gZW4gbGEgc29saWNpdHVkLiBTZSBwYXNhcsOhbiBwb3IgYWx0byBsb3Mgb2JqZXRpdm9zIGRlIHRpZW1wbyBkZSByZXNwdWVzdGEgcXVlIHNlYW4gY2Vyby4iIExldmVsPSJMb3ciIEV4ZWN0dWlvbk9yZGVyPSJBZnRlckRlcGVuZGVudHMiPg0KICAgICAgPFJ1bGVQYXJhbWV0ZXJzPg0KICAgICAgICA8UnVsZVBhcmFtZXRlciBOYW1lPSJUb2xlcmFuY2UiIFZhbHVlPSIwIiAvPg0KICAgICAgPC9SdWxlUGFyYW1ldGVycz4NCiAgICA8L1ZhbGlkYXRpb25SdWxlPg0KICA8L1ZhbGlkYXRpb25SdWxlcz4NCjwvV2ViVGVzdD4=">
+      <Execution id="275c305a-a9e9-419d-bb9c-515f041aead6" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="03e113f8-8198-4273-b64f-24030cd54e2c" executionId="ac28f39c-2192-40ba-ab5e-7084b0205788" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry isTransparent="false" testId="62ceefc6-0eca-475b-aa0e-4af6eb120e62" executionId="a93c7a4e-58f5-4296-ae94-4f731a9569ec" parentExecutionId="ac28f39c-2192-40ba-ab5e-7084b0205788" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <LoadTestResult executionId="ac28f39c-2192-40ba-ab5e-7084b0205788" testId="03e113f8-8198-4273-b64f-24030cd54e2c" testName="LoadTest1" computerName="CINST-102SO" duration="00:01:17.8153550" startTime="2015-06-07T13:48:18.5400264-05:00" endTime="2015-06-07T13:49:36.3553814-05:00" testType="fa4c85ff-1236-4463-b954-3ba2f0eabd95" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac28f39c-2192-40ba-ab5e-7084b0205788" runId="1" controllerStartTime="2015-06-07T13:48:18.5400264-05:00" runStatus="Stopped" resultsStoreType="Database" resultsRepositoryConnectString="LAs4ogoKlDd+VpAl2ugknpXtkwYcrJ4K4xho6CJjXD1Qv6o/LM9aSaAM4Ac5r6Taj3snulskUGTQzbVVXe9oT7r6RKtPoK7hv4F5g28RXiKSn9lO+5p/Kw==" loadTestDuration="600" loadTestWarmupTime="0" previouslyViewed="true">
+      <AnalyzerViewState>
+        <LoadTestRunDescriptor isLegendPanelVisible="true" isOverviewPanelVisible="true" isCounterPanelVisible="true" scrollingGraph="false" minMaxGraph="false" showHorizontalGridOnGraph="true" showThresholdsOnGraph="true" showComparison="false" showZoom="true" lockZoom="true" activeConsoleView="Graph" selectedGraphPanel1="Indicadores clave" selectedGraphPanel2="Tiempo de respuesta de la página" selectedGraphPanel3="Sistema a prueba" selectedGraphPanel4="Controlador y agentes" graphPanelLayout="FourGrid" tablePanelLayout="TwoHorizontal" selectedTablePanel1="Tests" selectedTablePanel2="Errors" selectedTablePanel3="Thresholds" selectedTablePanel4="Transactions" controllerName="CINST-102SO" isLocalRun="true" testRunId="a204fda2-7270-4521-86c1-5d0e852638fd" repositoryRunId="0">
+          <GraphDescriptors>
+            <GraphDescriptor graphName="Indicadores clave">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="0" rangeGroup="User Load" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="0" rangeGroup="Pages/Sec" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Page" counterName="Pages/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="0" rangeGroup="Avg. Page Time" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Page" counterName="Avg. Page Time" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="0" rangeGroup="Errores por segundo" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Errors" counterName="Errores por segundo" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="0" rangeGroup="Infracciones de umbral por segundo" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Errors" counterName="Infracciones de umbral por segundo" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Sistema a prueba">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Controlador y agentes">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="100" rangeGroup="% Processor Time" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="Processor" counterName="% Processor Time" instanceName="0" baseInstanceName="0" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="0" rangeGroup="Memory Bytes" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="Memory" counterName="Available MBytes" instanceName="systemdiagnosticsperfcounterlibsingleinstance" baseInstanceName="systemdiagnosticsperfcounterlibsingleinstance" loadTestItemId="-1" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Tiempo de respuesta de la prueba">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="78" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="78" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="WebTest2;Escenario1">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="WebTest2(000)" baseInstanceName="WebTest2" loadTestItemId="0" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Tiempo de respuesta de la transacción">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Tiempo de respuesta de la página">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="78" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="78" rangeGroup="Avg. Page Time" showOnGraph="true" isSelected="true" counterMetadata="WebTest2;Escenario1;http://isil.pe/----{GET}">
+                  <CounterDescriptor machineName="CINST-102SO" categoryName="LoadTest:Page" counterName="Avg. Page Time" instanceName="isil-pe{GET}(024)" baseInstanceName="isil-pe{GET}" loadTestItemId="24" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+          </GraphDescriptors>
+        </LoadTestRunDescriptor>
+      </AnalyzerViewState>
+      <Summary>
+        <PerformanceCounterResults>
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="CINST-102SO" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" value="51" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="CINST-102SO" categoryName="LoadTest:Test" counterName="Total Tests" instanceName="_Total" value="105" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="CINST-102SO" categoryName="LoadTest:Test" counterName="Failed Tests" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="CINST-102SO" categoryName="LoadTest:Test" counterName="Tests/Sec" instanceName="_Total" value="1.34934807" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="CINST-102SO" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="_Total" value="12.8554192" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="CINST-102SO" categoryName="LoadTest:Request" counterName="Total Requests" instanceName="_Total" value="4093" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="CINST-102SO" categoryName="LoadTest:Request" counterName="Failed Requests" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="CINST-102SO" categoryName="LoadTest:Request" counterName="Cached Requests" instanceName="_Total" value="1836" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="CINST-102SO" categoryName="LoadTest:Request" counterName="Requests/Sec" instanceName="_Total" value="52.5988731" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="CINST-102SO" categoryName="LoadTest:Request" counterName="Avg. Response Time" instanceName="_Total" value="0.892764449" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Processor" counterName="% Processor Time" instanceName="_Total" value="2.58635044" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="true" machineName="CINST-102SO" categoryName="Memory" counterName="Available MBytes" instanceName="-" value="3177" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{2dce67d6-d844-49dc-acda-d2ee9850f728}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="vmware virtual ethernet adapter for vmnet1" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{b19fed6d-1542-4be2-916a-e5ccdc4aea09}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{5504ec6b-22d5-4233-bb15-c8e577942e2f}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="teredo tunneling pseudo-interface" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="vmware virtual ethernet adapter for vmnet8" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{e46bb690-c2c0-4418-934b-9f9affb36be6}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="realtek pcie gbe family controller" value="718736.25" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{2dce67d6-d844-49dc-acda-d2ee9850f728}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="vmware virtual ethernet adapter for vmnet1" value="0.0133634" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{b19fed6d-1542-4be2-916a-e5ccdc4aea09}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{5504ec6b-22d5-4233-bb15-c8e577942e2f}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="teredo tunneling pseudo-interface" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="vmware virtual ethernet adapter for vmnet8" value="0.0133634" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{e46bb690-c2c0-4418-934b-9f9affb36be6}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="CINST-102SO" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="realtek pcie gbe family controller" value="41226.78" />
+        </PerformanceCounterResults>
+        <PageSummaries>
+          <PageSummary scenarioName="Escenario1" testName="WebTest2" url="isil.pe/{GET}" pageCount="105" responseTime="12837" />
+        </PageSummaries>
+        <TestSummaries>
+          <TestSummary scenarioName="Escenario1" testName="WebTest2" totalTests="105" testsFailed="0" averageDuration="12855" />
+        </TestSummaries>
+      </Summary>
+    </LoadTestResult>
+  </Results>
+</TestRun>
